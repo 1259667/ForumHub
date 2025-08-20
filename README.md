@@ -49,47 +49,5 @@ Editar
 
 ---
 
-## 🛠️ Como Executar o Projeto
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/forumhub.git
-Acesse a pasta do projeto:
-
-bash
-Copiar
-Editar
-cd forumhub
-Configure o banco de dados MySQL no application.properties:
-
-properties
-Copiar
-Editar
-spring.datasource.url=jdbc:mysql://localhost/forumhub
-spring.datasource.username=seuUsuario
-spring.datasource.password=suaSenha
-Rode a aplicação:
-
-bash
-Copiar
-Editar
-mvn spring-boot:run
-A API estará disponível em:
-👉 http://localhost:8080
-
-🔒 Segurança
-A autenticação é feita via JWT Token.
-
-Após o login, inclua no Postman/Insomnia o header:
-
-makefile
-Copiar
-Editar
-Authorization: Bearer SEU_TOKEN_AQUI
-📚 Próximos Passos
-Implementar testes unitários e de integração.
-
-Documentar a API com Swagger/OpenAPI.
-
-Adicionar perfis de ambiente (dev/test/prod).
 
